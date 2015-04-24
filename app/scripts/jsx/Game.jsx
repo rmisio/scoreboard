@@ -61,7 +61,7 @@ views.Game = React.createClass({
     }
 
     return (
-      <div className="game">
+      <div className={ 'game status-' + data.status }>
         <div className="status">{status}</div>
         <div className="teams">
           <div className={awayTeam.winner ? 'winner' : ''}>

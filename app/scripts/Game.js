@@ -61,7 +61,7 @@ views.Game = React.createClass({displayName: "Game",
     }
 
     return (
-      React.createElement("div", {className: "game"}, 
+      React.createElement("div", {className:  'game status-' + data.status}, 
         React.createElement("div", {className: "status"}, status), 
         React.createElement("div", {className: "teams"}, 
           React.createElement("div", {className: awayTeam.winner ? 'winner' : ''}, 
