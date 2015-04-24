@@ -1,0 +1,12 @@
+{
+  "name": "scoreboard",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.2",
+    "react": "~0.13.2",
+    "moment": "~2.10.2",
+    "backbone": "~1.1.2",
+    "backbone-nested-model": "~2.0.2"
+  }
+}
